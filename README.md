@@ -42,11 +42,11 @@ cpu：i5 6200u
 
 cpu实现变频
 
-1![](https://gitee.com/nabaonan/airbook-6200u-efi/blob/master/assets/1.png)
+1![](https://github.com/nabaonan/airbook-6200u-efi/blob/master/assets/1.png)
 
 2.wifi，音频和电量可正常显示
 
-![](https://gitee.com/nabaonan/airbook-6200u-efi/tree/master/assets/2.png)
+![](https://github.com/nabaonan/airbook-6200u-efi/blob/master/assets/2.png)
 
 3电池正常识别
 
@@ -54,13 +54,13 @@ cpu实现变频
 
 4音频可以正常识别
 
-![](https://gitee.com/nabaonan/airbook-6200u-efi/tree/master/assets/4.png)
+![](https://github.com/nabaonan/airbook-6200u-efi/blob/master/assets/4.png)
 
 5电池电量显示正常
 
-![](https://gitee.com/nabaonan/airbook-6200u-efi/tree/master/assets/5.png)
+![](https://github.com/nabaonan/airbook-6200u-efi/blob/master/assets/5.png)
 
 6温度监控正常
 
-![](https://gitee.com/nabaonan/airbook-6200u-efi/tree/master/assets/6.png)
+![](https://github.com/nabaonan/airbook-6200u-efi/blob/master/assets/6.png)
 
