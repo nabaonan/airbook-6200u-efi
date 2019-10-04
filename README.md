@@ -64,3 +64,22 @@ cpu实现变频
 
 ![](https://github.com/nabaonan/airbook-6200u-efi/blob/master/assets/6.png)
 
+7系统概览
+
+![](https://github.com/nabaonan/airbook-6200u-efi/blob/master/assets/7.png)
+
+8显示器
+
+![](https://github.com/nabaonan/airbook-6200u-efi/blob/master/assets/8.png)
+
+9 usb3速度正常5g
+
+![](https://github.com/nabaonan/airbook-6200u-efi/blob/master/assets/9.png)
+
+10 电源电池正常识别
+
+![](https://github.com/nabaonan/airbook-6200u-efi/blob/master/assets/10.png)
+
+11内存正常识别
+
+![](https://github.com/nabaonan/airbook-6200u-efi/blob/master/assets/11.png)
