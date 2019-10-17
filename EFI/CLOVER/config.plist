@@ -69,20 +69,6 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>change EC0 to EC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					RUMwXw==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUNfXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change HDAS to HDEF</string>
 					<key>Disabled</key>
 					<false/>
@@ -125,11 +111,23 @@
 		<array>
 			<dict>
 				<key>Signature</key>
-				<string>DMAR</string>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>CpuPm</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>Cpu0Ist</string>
 			</dict>
 			<dict>
 				<key>Signature</key>
 				<string>BGRT</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>DMAR</string>
 			</dict>
 		</array>
 		<key>FixHeaders</key>
@@ -174,8 +172,17 @@
 			<key>PluginType</key>
 			<string>1</string>
 			<key>UseSystemIO</key>
-			<true/>
+			<false/>
 		</dict>
+		<key>SortedOrder</key>
+		<array>
+			<string>SSDT.aml</string>
+			<string>SSDT-1.aml</string>
+			<string>SSDT-2.aml</string>
+			<string>DSDT.aml</string>
+			<string>SSDT-UIAC.aml</string>
+			<string>SSDT-USBX.aml</string>
+		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
