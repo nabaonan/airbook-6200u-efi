@@ -389,7 +389,7 @@
 		<key>RadeonDeInit</key>
 		<false/>
 		<key>ig-platform-id</key>
-		<string>0x19160000</string>
+		<string>0x19160002</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
