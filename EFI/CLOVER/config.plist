@@ -236,13 +236,13 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>
-				AAAWGQ==
+				AAIWGQ==
 				</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal</string>
 				<key>device-id</key>
 				<data>
-				FhkAAA==
+				FhkAAg==
 				</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
@@ -277,6 +277,10 @@
 				<key>framebuffer-fbmem</key>
 				<data>
 				AACQAA==
+				</data>
+				<key>framebuffer-flags</key>
+				<data>
+				AgujAA==
 				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
@@ -509,7 +513,7 @@
 				<false/>
 				<key>Find</key>
 				<data>
-				dkBI/wU=
+				CguDAA==
 				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
@@ -517,43 +521,7 @@
 				<string>com.apple.driver.AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
 				<data>
-				60BI/wU=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>5Ghz-US</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				QYP8/3QsSA==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>AirPortBrcm4360</string>
-				<key>Replace</key>
-				<data>
-				ZscGVVPrKw==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>AirPortBrcm4360 - fcvo</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				gflSqgAAdSk=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>AirPortBrcm4360</string>
-				<key>Replace</key>
-				<data>
-				gflSqgAAZpA=
+				DwuDAA==
 				</data>
 			</dict>
 		</array>
