@@ -236,13 +236,13 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>
-				AAIWGQ==
+				AAAWGQ==
 				</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal</string>
 				<key>device-id</key>
 				<data>
-				FhkAAg==
+				FhkAAA==
 				</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
@@ -513,7 +513,7 @@
 				<false/>
 				<key>Find</key>
 				<data>
-				CguDAA==
+				dkBI/wU=
 				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
@@ -521,7 +521,7 @@
 				<string>com.apple.driver.AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
 				<data>
-				DwuDAA==
+				60BI/wU=
 				</data>
 			</dict>
 		</array>
