@@ -178,7 +178,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>abm_firstpolldelay=16000 debug=0x100 keepsyms=1 -v alcid=2</string>
+		<string>abm_firstpolldelay=16000 debug=0x100 keepsyms=1 alcid=2</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -362,19 +362,8 @@
 	<dict>
 		<key>EDID</key>
 		<dict>
-			<key>Custom</key>
-			<data>
-			AP///////wBNECMUAAAAAA4YAQSlHRF4BogApFZNmiYNUFQAAAAB
-			AQEBAQEBAQEBAQEBAQEBc18AoKCgOFAwIOUAJqUQAAAYAAAAEAAA
-			AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA/ABMUTEz
-			M1QxSlcyMQogAEE=
-			</data>
 			<key>Inject</key>
-			<true/>
-			<key>ProductID</key>
-			<string>0x1423</string>
-			<key>VendorID</key>
-			<string>0x104D</string>
+			<false/>
 		</dict>
 		<key>Inject</key>
 		<dict>
@@ -507,6 +496,76 @@
 				AAAAAAAAAAAAAAA=
 				</data>
 			</dict>
+      <dict>
+          <key>Comment</key>
+          <string>AirPortBrcm4360 - PCI Error 1</string>
+          <key>Find</key>
+          <data>QTnEdRs=</data>
+          <key>Name</key>
+          <string>AirPortBrcm4360</string>
+          <key>Replace</key>
+          <data>QTnEZpA=</data>
+      </dict>
+      <dict>
+          <key>Comment</key>
+          <string>AirPortBrcm4360 - PCI Error 2</string>
+          <key>Find</key>
+          <data>QQ+3zTnBdQw=</data>
+          <key>Name</key>
+          <string>AirPortBrcm4360</string>
+          <key>Replace</key>
+          <data>QQ+3zTnBZpA=</data>
+      </dict>
+      <dict>
+          <key>Comment</key>
+          <string>AirPortBrcm4360 - PCI Error 3</string>
+          <key>Find</key>
+          <data>g33EBHQG</data>
+          <key>Name</key>
+          <string>AirPortBrcm4360</string>
+          <key>Replace</key>
+          <data>g33EBGaQ</data>
+      </dict>
+      <dict>
+          <key>Comment</key>
+          <string>BCM94352-5GHz-US-FCC-darkvoid</string>
+          <key>Find</key>
+          <data>gflSqgAAdSk=</data>
+          <key>Name</key>
+          <string>AirPortBrcm4360</string>
+          <key>Replace</key>
+          <data>gflSqgAAZpA=</data>
+      </dict>
+      <dict>
+          <key>Comment</key>
+          <string>BCM94352-5GHz-US-FCC-darkvoid</string>
+          <key>Find</key>
+          <data>QYP8/3QsSA==</data>
+          <key>Name</key>
+          <string>AirPortBrcm4360</string>
+          <key>Replace</key>
+          <data>ZscGVVPrKw==</data>
+      </dict>
+      <dict>
+          <key>Comment</key>
+          <string>BCM94352-Airport-Extreme-skvo</string>
+          <key>Find</key>
+          <data>axAAAHUN</data>
+          <key>Name</key>
+          <string>AirPortBrcm4360</string>
+          <key>Replace</key>
+          <data>axAAAJCQ</data>
+      </dict>
+      <dict>
+          <key>Comment</key>
+          <string>BT4LE-Handoff-Hotspot-lisai9093</string>
+          <key>Find</key>
+          <data>SIX/dEdIiwc=</data>
+          <key>Name</key>
+          <string>IOBluetoothFamily</string>
+          <key>Replace</key>
+          <data>Qb4PAAAA60Q=</data>
+      </dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -589,6 +648,8 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>BacklightLevel</key>
+		<string>0x0</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
