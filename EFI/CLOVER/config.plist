@@ -73,13 +73,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					SERBUw==
-					</data>
+					<data>SERBUw==</data>
 					<key>Replace</key>
-					<data>
-					SERFRg==
-					</data>
+					<data>SERFRg==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -87,13 +83,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					R0ZYMA==
-					</data>
+					<data>R0ZYMA==</data>
 					<key>Replace</key>
-					<data>
-					SUdQVQ==
-					</data>
+					<data>SUdQVQ==</data>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -236,69 +228,39 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>
-				AgAWGQ==
-				</data>
+				<data>AgAWGQ==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal</string>
 				<key>device-id</key>
-				<data>
-				FhkAAA==
-				</data>
+				<data>FhkAAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>enable-hdmi20</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con1-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con1-type</key>
-				<data>
-				AAgAAA==
-				</data>
+				<data>AAgAAA==</data>
 				<key>framebuffer-con2-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con2-index</key>
-				<data>
-				/////w==
-				</data>
+				<data>/////w==</data>
 				<key>framebuffer-con2-type</key>
-				<data>
-				AAgAAA==
-				</data>
+				<data>AAgAAA==</data>
 				<key>framebuffer-fbmem</key>
-				<data>
-				AACQAA==
-				</data>
+				<data>AACQAA==</data>
 				<key>framebuffer-flags</key>
-				<data>
-				AgujAA==
-				</data>
+				<data>AgujAA==</data>
 				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-portcount</key>
-				<data>
-				AgAAAA==
-				</data>
+				<data>AgAAAA==</data>
 				<key>framebuffer-stolenmem</key>
-				<data>
-				AAAwAQ==
-				</data>
+				<data>AAAwAQ==</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAgA==
-				</data>
+				<data>AAAAgA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
@@ -415,15 +377,11 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				igKEwHRE
-				</data>
+				<data>igKEwHRE</data>
 				<key>MatchOS</key>
 				<string>10.13.x</string>
 				<key>Replace</key>
-				<data>
-				igKEwOtE
-				</data>
+				<data>igKEwOtE</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -431,15 +389,11 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				AIoChMB0
-				</data>
+				<data>AIoChMB0</data>
 				<key>MatchOS</key>
 				<string>10.14.4,10.14.5</string>
 				<key>Replace</key>
-				<data>
-				AIoChMDr
-				</data>
+				<data>AIoChMDr</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -447,15 +401,11 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				igKEwHRC
-				</data>
+				<data>igKEwHRC</data>
 				<key>MatchOS</key>
 				<string>10.14.0,10.14.1,10.14.2,10.14.3</string>
 				<key>Replace</key>
-				<data>
-				igKEwOtC
-				</data>
+				<data>igKEwOtC</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -463,15 +413,11 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				ILniAAAADzA=
-				</data>
+				<data>ILniAAAADzA=</data>
 				<key>MatchOS</key>
 				<string>10.11.x,10.12.x,10.13.x,10.14.x</string>
 				<key>Replace</key>
-				<data>
-				ILniAAAAkJA=
-				</data>
+				<data>ILniAAAAkJA=</data>
 			</dict>
 		</array>
 		<key>KernelXCPM</key>
@@ -484,88 +430,28 @@
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				AEFQUExFIFNTRAA=
-				</data>
+				<data>AEFQUExFIFNTRAA=</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAAAAA=
-				</data>
+				<data>AAAAAAAAAAAAAAA=</data>
 			</dict>
-      <dict>
-          <key>Comment</key>
-          <string>AirPortBrcm4360 - PCI Error 1</string>
-          <key>Find</key>
-          <data>QTnEdRs=</data>
-          <key>Name</key>
-          <string>AirPortBrcm4360</string>
-          <key>Replace</key>
-          <data>QTnEZpA=</data>
-      </dict>
-      <dict>
-          <key>Comment</key>
-          <string>AirPortBrcm4360 - PCI Error 2</string>
-          <key>Find</key>
-          <data>QQ+3zTnBdQw=</data>
-          <key>Name</key>
-          <string>AirPortBrcm4360</string>
-          <key>Replace</key>
-          <data>QQ+3zTnBZpA=</data>
-      </dict>
-      <dict>
-          <key>Comment</key>
-          <string>AirPortBrcm4360 - PCI Error 3</string>
-          <key>Find</key>
-          <data>g33EBHQG</data>
-          <key>Name</key>
-          <string>AirPortBrcm4360</string>
-          <key>Replace</key>
-          <data>g33EBGaQ</data>
-      </dict>
-      <dict>
-          <key>Comment</key>
-          <string>BCM94352-5GHz-US-FCC-darkvoid</string>
-          <key>Find</key>
-          <data>gflSqgAAdSk=</data>
-          <key>Name</key>
-          <string>AirPortBrcm4360</string>
-          <key>Replace</key>
-          <data>gflSqgAAZpA=</data>
-      </dict>
-      <dict>
-          <key>Comment</key>
-          <string>BCM94352-5GHz-US-FCC-darkvoid</string>
-          <key>Find</key>
-          <data>QYP8/3QsSA==</data>
-          <key>Name</key>
-          <string>AirPortBrcm4360</string>
-          <key>Replace</key>
-          <data>ZscGVVPrKw==</data>
-      </dict>
-      <dict>
-          <key>Comment</key>
-          <string>BCM94352-Airport-Extreme-skvo</string>
-          <key>Find</key>
-          <data>axAAAHUN</data>
-          <key>Name</key>
-          <string>AirPortBrcm4360</string>
-          <key>Replace</key>
-          <data>axAAAJCQ</data>
-      </dict>
-      <dict>
-          <key>Comment</key>
-          <string>BT4LE-Handoff-Hotspot-lisai9093</string>
-          <key>Find</key>
-          <data>SIX/dEdIiwc=</data>
-          <key>Name</key>
-          <string>IOBluetoothFamily</string>
-          <key>Replace</key>
-          <data>Qb4PAAAA60Q=</data>
-      </dict>
+			<dict>
+				<key>Comment</key>
+				<string>BCM94352-5GHz-US-FCC-darkvoid</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>gflSqgAAdSk=</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>gflSqgAAZpA=</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
