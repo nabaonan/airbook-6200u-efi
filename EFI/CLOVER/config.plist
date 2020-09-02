@@ -5,7 +5,7 @@
 	<key>ACPI</key>
 	<dict>
 		<key>AutoMerge</key>
-		<true/>
+		<false/>
 		<key>DSDT</key>
 		<dict>
 			<key>Debug</key>
@@ -63,8 +63,6 @@
 				<key>FixWAK</key>
 				<false/>
 			</dict>
-			<key>Name</key>
-			<string>DSDT.aml</string>
 			<key>Patches</key>
 			<array>
 				<dict>
@@ -152,6 +150,7 @@
 		</dict>
 		<key>SortedOrder</key>
 		<array>
+			<string>DSDT.aml</string>
 			<string>SSDT-0.aml</string>
 			<string>SSDT-1.aml</string>
 			<string>SSDT-2.aml</string>
@@ -160,8 +159,7 @@
 			<string>SSDT-5.aml</string>
 			<string>SSDT-6.aml</string>
 			<string>SSDT-7.aml</string>
-			<string>SSDT-8.aml</string>
-			<string>DSDT.aml</string>
+			<string>SSDT.aml</string>
 			<string>SSDT-UIAC.aml</string>
 			<string>SSDT-USBX.aml</string>
 			<string>SSDT-PNLF.aml</string>
@@ -532,8 +530,6 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>BacklightLevel</key>
-		<string>0x0</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
