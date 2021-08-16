@@ -1,6 +1,6 @@
 # airbook-6200u-efi
 
-[![macOS](https://img.shields.io/badge/macOS-11.5.1-orange)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.2-blue)](https://github.com/acidanthera/OpenCorePkg) [![macOS](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://developer.apple.com/documentation/macos-release-notes)
+[![macOS](https://img.shields.io/badge/macOS-11.5.1-orange)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.2-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
 
 ## 介绍
 airbook支持macos bigsur ，所有kext驱动更新最新，经过测试睡眠完美，随航可用
