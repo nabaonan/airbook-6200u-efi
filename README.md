@@ -1,12 +1,11 @@
-
-
 # airbook-6200u-efi
 
+[![macOS](https://img.shields.io/badge/macOS-11.5.1-orange)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.2-blue)](https://github.com/acidanthera/OpenCorePkg) [![macOS](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://developer.apple.com/documentation/macos-release-notes)
+
 ## 介绍
-支持最新 bigsur11.5.1，oc版本是最新的0.7.2，所有驱动全是当前最新
+airbook支持macos bigsur ，所有kext驱动更新最新，经过测试睡眠完美，随航可用
 
 ## 效果预览
-
 **b站**：  [效果预览](https://www.bilibili.com/video/BV183411r77B)
 
 ## 基本配置
@@ -64,10 +63,17 @@
 
 ## 变更记录
 
+- **3.0.3**
+  - 修复睡眠一段时间自动唤醒的问题  禁用appleRTC
+  - 清理无用的驱动
+
 - **3.0.1**
+  
   - 支持bigsur11.5.1，oc升级到0.7.2，驱动所有硬件
   - 修复睡眠就唤醒的问题
   - 解决wifi驱动冲突导致启动缓慢的问题
+  
+  
 
 ## 效果截图
 
