@@ -49,7 +49,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8989</integer>
 			<key>idVendor</key>
@@ -64,7 +64,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>57392</integer>
 			<key>idVendor</key>
@@ -79,7 +79,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>57394</integer>
 			<key>idVendor</key>
@@ -94,7 +94,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>57410</integer>
 			<key>idVendor</key>
@@ -109,7 +109,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>57414</integer>
 			<key>idVendor</key>
@@ -124,7 +124,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>57423</integer>
 			<key>idVendor</key>
@@ -139,7 +139,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>57426</integer>
 			<key>idVendor</key>
@@ -154,7 +154,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>57429</integer>
 			<key>idVendor</key>
@@ -169,7 +169,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>57433</integer>
 			<key>idVendor</key>
@@ -184,7 +184,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>57465</integer>
 			<key>idVendor</key>
@@ -199,7 +199,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>57466</integer>
 			<key>idVendor</key>
@@ -214,7 +214,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>57479</integer>
 			<key>idVendor</key>
@@ -229,7 +229,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>57494</integer>
 			<key>idVendor</key>
@@ -244,7 +244,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>57505</integer>
 			<key>idVendor</key>
@@ -259,7 +259,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>63745</integer>
 			<key>idVendor</key>
@@ -274,7 +274,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8195</integer>
 			<key>idVendor</key>
@@ -289,7 +289,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8196</integer>
 			<key>idVendor</key>
@@ -304,7 +304,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8197</integer>
 			<key>idVendor</key>
@@ -319,7 +319,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8198</integer>
 			<key>idVendor</key>
@@ -334,7 +334,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8201</integer>
 			<key>idVendor</key>
@@ -349,7 +349,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8202</integer>
 			<key>idVendor</key>
@@ -364,7 +364,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8203</integer>
 			<key>idVendor</key>
@@ -379,7 +379,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8204</integer>
 			<key>idVendor</key>
@@ -394,7 +394,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8206</integer>
 			<key>idVendor</key>
@@ -409,7 +409,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8207</integer>
 			<key>idVendor</key>
@@ -424,7 +424,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8210</integer>
 			<key>idVendor</key>
@@ -439,7 +439,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8214</integer>
 			<key>idVendor</key>
@@ -454,7 +454,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>46241</integer>
 			<key>idVendor</key>
@@ -469,7 +469,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>1626</integer>
 			<key>idVendor</key>
@@ -484,7 +484,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>542</integer>
 			<key>idVendor</key>
@@ -499,7 +499,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>543</integer>
 			<key>idVendor</key>
@@ -514,7 +514,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>545</integer>
 			<key>idVendor</key>
@@ -529,7 +529,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>547</integer>
 			<key>idVendor</key>
@@ -544,7 +544,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>549</integer>
 			<key>idVendor</key>
@@ -559,7 +559,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>550</integer>
 			<key>idVendor</key>
@@ -574,7 +574,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>553</integer>
 			<key>idVendor</key>
@@ -589,7 +589,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8552</integer>
 			<key>idVendor</key>
@@ -604,7 +604,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8553</integer>
 			<key>idVendor</key>
@@ -619,7 +619,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8554</integer>
 			<key>idVendor</key>
@@ -634,7 +634,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8555</integer>
 			<key>idVendor</key>
@@ -649,7 +649,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8556</integer>
 			<key>idVendor</key>
@@ -664,7 +664,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8557</integer>
 			<key>idVendor</key>
@@ -679,7 +679,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8558</integer>
 			<key>idVendor</key>
@@ -694,7 +694,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8559</integer>
 			<key>idVendor</key>
@@ -709,7 +709,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8573</integer>
 			<key>idVendor</key>
@@ -724,7 +724,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8663</integer>
 			<key>idVendor</key>
@@ -739,7 +739,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8670</integer>
 			<key>idVendor</key>
@@ -754,7 +754,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8673</integer>
 			<key>idVendor</key>
@@ -769,7 +769,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8675</integer>
 			<key>idVendor</key>
@@ -784,7 +784,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8678</integer>
 			<key>idVendor</key>
@@ -799,7 +799,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8680</integer>
 			<key>idVendor</key>
@@ -814,7 +814,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8684</integer>
 			<key>idVendor</key>
@@ -829,7 +829,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8689</integer>
 			<key>idVendor</key>
@@ -844,7 +844,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8691</integer>
 			<key>idVendor</key>
@@ -859,7 +859,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8692</integer>
 			<key>idVendor</key>
@@ -874,7 +874,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8699</integer>
 			<key>idVendor</key>
@@ -889,7 +889,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8701</integer>
 			<key>idVendor</key>
@@ -904,7 +904,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>8894</integer>
 			<key>idVendor</key>
@@ -919,7 +919,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>25611</integer>
 			<key>idVendor</key>
@@ -934,7 +934,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>25616</integer>
 			<key>idVendor</key>
@@ -949,7 +949,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>25618</integer>
 			<key>idVendor</key>
@@ -964,7 +964,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>25619</integer>
 			<key>idVendor</key>
@@ -979,7 +979,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>25620</integer>
 			<key>idVendor</key>
@@ -994,7 +994,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>25623</integer>
 			<key>idVendor</key>
@@ -1009,7 +1009,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>25624</integer>
 			<key>idVendor</key>
@@ -1024,7 +1024,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>29792</integer>
 			<key>idVendor</key>
@@ -1039,7 +1039,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>33421</integer>
 			<key>idVendor</key>
@@ -1054,7 +1054,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>6026</integer>
 			<key>idVendor</key>
@@ -1069,7 +1069,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>6069</integer>
 			<key>idVendor</key>
@@ -1084,7 +1084,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>6091</integer>
 			<key>idVendor</key>
@@ -1099,7 +1099,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>6095</integer>
 			<key>idVendor</key>
@@ -1114,7 +1114,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>6154</integer>
 			<key>idVendor</key>
@@ -1129,7 +1129,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>774</integer>
 			<key>idVendor</key>
@@ -1144,7 +1144,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>57445</integer>
 			<key>idVendor</key>
@@ -1159,7 +1159,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>57446</integer>
 			<key>idVendor</key>
@@ -1174,7 +1174,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>12949</integer>
 			<key>idVendor</key>
@@ -1189,7 +1189,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>13188</integer>
 			<key>idVendor</key>
@@ -1204,7 +1204,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>13192</integer>
 			<key>idVendor</key>
@@ -1219,7 +1219,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>13193</integer>
 			<key>idVendor</key>
@@ -1234,7 +1234,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>13202</integer>
 			<key>idVendor</key>
@@ -1249,7 +1249,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>13316</integer>
 			<key>idVendor</key>
@@ -1264,7 +1264,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>13329</integer>
 			<key>idVendor</key>
@@ -1279,7 +1279,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>13331</integer>
 			<key>idVendor</key>
@@ -1294,7 +1294,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>13336</integer>
 			<key>idVendor</key>
@@ -1309,7 +1309,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>13351</integer>
 			<key>idVendor</key>
@@ -1324,7 +1324,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>13365</integer>
 			<key>idVendor</key>
@@ -1339,7 +1339,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>13398</integer>
 			<key>idVendor</key>
@@ -1354,7 +1354,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>13442</integer>
 			<key>idVendor</key>
@@ -1369,7 +1369,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>13444</integer>
 			<key>idVendor</key>
@@ -1384,7 +1384,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>13572</integer>
 			<key>idVendor</key>
@@ -1399,7 +1399,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>13576</integer>
 			<key>idVendor</key>
@@ -1414,7 +1414,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>13591</integer>
 			<key>idVendor</key>
@@ -1429,7 +1429,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>419</integer>
 			<key>idVendor</key>
@@ -1444,7 +1444,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>569</integer>
 			<key>idVendor</key>
@@ -1489,7 +1489,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>33091</integer>
 			<key>idVendor</key>
@@ -1504,7 +1504,7 @@
 			<key>IOProbeScore</key>
 			<integer>3000</integer>
 			<key>IOProviderClass</key>
-			<string>IOUSBDevice</string>
+			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>33175</integer>
 			<key>idVendor</key>
