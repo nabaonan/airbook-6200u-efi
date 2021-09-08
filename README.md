@@ -38,7 +38,7 @@
 | SMCSuperIO            | ![](https://img.shields.io/badge/version-1.2.6-informational) | 温度检测                   |
 | USBPorts              |                                                              | usb定制                    |
 | ECEnabler             | ![](https://img.shields.io/badge/version-1.0.2-informational) | 电池驱动依赖，不用拆字节了 |
-| ACPIBatteryManager    | ![](https://img.shields.io/badge/version-1.90.1-informational) | 电池驱动                   |
+| SMCBatteryManager     | ![](https://img.shields.io/badge/version-1.2.6-informational) | 电池驱动                   |
 
 ## 功能完善度
 
@@ -61,6 +61,10 @@
 
 
 ## 变更记录
+
+- 2.3.1
+
+  - 更换电池驱动
 
 - **2.3.0**
 
