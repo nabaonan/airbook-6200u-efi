@@ -62,10 +62,15 @@ airbook支持macos bigsur ，所有kext驱动更新最新，经过测试睡眠�
 
 ## 变更记录
 
+- 3.0.5
+  
+  - 更换smc电池驱动，提升性能
+
 - **3.0.3**
+  
   - 修复睡眠一段时间自动唤醒的问题  禁用appleRTC
   - 清理无用的驱动
-
+  
 - **3.0.1**
   
   - 支持bigsur11.5.1，oc升级到0.7.2，驱动所有硬件
@@ -107,7 +112,7 @@ airbook支持macos bigsur ，所有kext驱动更新最新，经过测试睡眠�
 
 ### Geekbench5跑分
 
-![6](./assets/6.jpg)
+![6](./assets/10.jpg)ß
 
 ### USB定制
 
