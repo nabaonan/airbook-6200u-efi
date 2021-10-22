@@ -25,20 +25,20 @@ airbook支持macos bigsur ，所有kext驱动更新最新，经过测试睡眠�
 | 名称                  | 版本                                                         | 描述                       |
 | --------------------- | ------------------------------------------------------------ | -------------------------- |
 | AirportBcrmFixup      | ![](https://img.shields.io/badge/version-1.2.3-informational) | 修复蓝牙                   |
-| AppleALC              | ![](https://img.shields.io/badge/version-1.6.3-informational)      | 声卡                       |
-| BcrmPatchRAM3         | ![](https://img.shields.io/badge/version-2.6.0-informational)      | 无线                       |
-| BrcmBluetoothInjector | ![](https://img.shields.io/badge/version-2.6.0-informational)      | 蓝牙                       |
-| BrcmFirmwareData      | ![](https://img.shields.io/badge/version-2.6.0-informational)      | 无线 蓝牙依赖              |
-| HibernationFixup      | ![](https://img.shields.io/badge/version-1.4.2-informational)      | 修复睡眠                   |
-| Lilu                  | ![](https://img.shields.io/badge/version-1.5.5-informational)      | 核心                       |
-| VoodooPS2Controller   | ![](https://img.shields.io/badge/version-2.2.4-informational)      | 触摸板和键盘               |
-| WhateverGreen         | ![](https://img.shields.io/badge/version-1.5.2-informational)      | 显卡                       |
-| VirtualSMC            | ![](https://img.shields.io/badge/version-1.2.6-informational)      | 核心                       |
-| SMCProcessor          | ![](https://img.shields.io/badge/version-1.2.6-informational)      | 处理器温度                 |
-| SMCSuperIO            | ![](https://img.shields.io/badge/version-1.2.6-informational)      | 温度检测                   |
+| AppleALC              | ![](https://img.shields.io/badge/version-1.6.3-informational) | 声卡                       |
+| BcrmPatchRAM3         | ![](https://img.shields.io/badge/version-2.6.0-informational) | 无线                       |
+| BrcmBluetoothInjector | ![](https://img.shields.io/badge/version-2.6.0-informational) | 蓝牙                       |
+| BrcmFirmwareData      | ![](https://img.shields.io/badge/version-2.6.0-informational) | 无线 蓝牙依赖              |
+| HibernationFixup      | ![](https://img.shields.io/badge/version-1.4.2-informational) | 修复睡眠                   |
+| Lilu                  | ![](https://img.shields.io/badge/version-1.5.5-informational) | 核心                       |
+| VoodooPS2Controller   | ![](https://img.shields.io/badge/version-2.2.4-informational) | 触摸板和键盘               |
+| WhateverGreen         | ![](https://img.shields.io/badge/version-1.5.2-informational) | 显卡                       |
+| VirtualSMC            | ![](https://img.shields.io/badge/version-1.2.6-informational) | 核心                       |
+| SMCProcessor          | ![](https://img.shields.io/badge/version-1.2.6-informational) | 处理器温度                 |
+| SMCSuperIO            | ![](https://img.shields.io/badge/version-1.2.6-informational) | 温度检测                   |
 | USBPorts              |                                                              | usb定制                    |
-| ECEnabler             | ![](https://img.shields.io/badge/version-1.0.2-informational)      | 电池驱动依赖，不用拆字节了 |
-| ACPIBatteryManager    | ![](https://img.shields.io/badge/version-1.90.1-informational)     | 电池驱动                   |
+| ECEnabler             | ![](https://img.shields.io/badge/version-1.0.2-informational) | 电池驱动依赖，不用拆字节了 |
+| SMCBatteryManager     | ![](https://img.shields.io/badge/version-2.6.0-informational) | 电池驱动                   |
 
 ## 功能完善度
 
