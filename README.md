@@ -38,7 +38,7 @@ airbook支持macos bigsur ，所有kext驱动更新最新，经过测试睡眠�
 | SMCSuperIO            | ![](https://img.shields.io/badge/version-1.2.6-informational) | 温度检测                   |
 | USBPorts              |                                                              | usb定制                    |
 | ECEnabler             | ![](https://img.shields.io/badge/version-1.0.2-informational) | 电池驱动依赖，不用拆字节了 |
-| SMCBatteryManager     | ![](https://img.shields.io/badge/version-2.6.0-informational) | 电池驱动                   |
+| SMCBatteryManager     | ![](https://img.shields.io/badge/version-1.2.6-informational) | 电池驱动                   |
 
 ## 功能完善度
 
