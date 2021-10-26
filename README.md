@@ -1,6 +1,6 @@
 # airbook-6200u-efi
 
-[![macOS](https://img.shields.io/badge/macOS-11.6-orange)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.2-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
+[![macOS](https://img.shields.io/badge/macOS-11.6.1-orange)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.4-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
 
 ## 介绍
 airbook支持macos bigsur ，所有kext驱动更新最新，经过测试睡眠完美，随航可用
@@ -24,21 +24,21 @@ airbook支持macos bigsur ，所有kext驱动更新最新，经过测试睡眠�
 
 | 名称                  | 版本                                                         | 描述                       |
 | --------------------- | ------------------------------------------------------------ | -------------------------- |
-| AirportBcrmFixup      | ![](https://img.shields.io/badge/version-1.2.3-informational) | 修复蓝牙                   |
-| AppleALC              | ![](https://img.shields.io/badge/version-1.6.3-informational) | 声卡                       |
+| AirportBcrmFixup      | ![](https://img.shields.io/badge/version-2.1.3-informational) | 修复蓝牙                   |
+| AppleALC              | ![](https://img.shields.io/badge/version-1.6.5-informational) | 声卡                       |
 | BcrmPatchRAM3         | ![](https://img.shields.io/badge/version-2.6.0-informational) | 无线                       |
 | BrcmBluetoothInjector | ![](https://img.shields.io/badge/version-2.6.0-informational) | 蓝牙                       |
 | BrcmFirmwareData      | ![](https://img.shields.io/badge/version-2.6.0-informational) | 无线 蓝牙依赖              |
-| HibernationFixup      | ![](https://img.shields.io/badge/version-1.4.2-informational) | 修复睡眠                   |
-| Lilu                  | ![](https://img.shields.io/badge/version-1.5.5-informational) | 核心                       |
-| VoodooPS2Controller   | ![](https://img.shields.io/badge/version-2.2.4-informational) | 触摸板和键盘               |
-| WhateverGreen         | ![](https://img.shields.io/badge/version-1.5.2-informational) | 显卡                       |
-| VirtualSMC            | ![](https://img.shields.io/badge/version-1.2.6-informational) | 核心                       |
-| SMCProcessor          | ![](https://img.shields.io/badge/version-1.2.6-informational) | 处理器温度                 |
-| SMCSuperIO            | ![](https://img.shields.io/badge/version-1.2.6-informational) | 温度检测                   |
-| USBPorts              |                                                              | usb定制                    |
+| HibernationFixup      | ![](https://img.shields.io/badge/version-1.4.4-informational) | 修复睡眠                   |
+| Lilu                  | ![](https://img.shields.io/badge/version-1.5.6-informational) | 核心                       |
+| VoodooPS2Controller   | ![](https://img.shields.io/badge/version-2.2.6-informational) | 触摸板和键盘               |
+| WhateverGreen         | ![](https://img.shields.io/badge/version-1.5.4-informational) | 显卡                       |
+| VirtualSMC            | ![](https://img.shields.io/badge/version-1.2.7-informational) | 核心                       |
+| SMCProcessor          | ![](https://img.shields.io/badge/version-1.2.7-informational) | 处理器温度                 |
+| SMCBatteryManager     | ![](https://img.shields.io/badge/version-1.2.7-informational) | 电池驱动                   |
+| SMCSuperIO            | ![](https://img.shields.io/badge/version-1.2.7-informational) | 温度检测                   |
 | ECEnabler             | ![](https://img.shields.io/badge/version-1.0.2-informational) | 电池驱动依赖，不用拆字节了 |
-| SMCBatteryManager     | ![](https://img.shields.io/badge/version-1.2.6-informational) | 电池驱动                   |
+| USBPorts              |                                                              | usb定制                    |
 
 ## 功能完善度
 
@@ -62,6 +62,10 @@ airbook支持macos bigsur ，所有kext驱动更新最新，经过测试睡眠�
 
 ## 变更记录
 
+- 3.1.0
+  
+  - 升级oc到0.7.4   升级所有驱动到最新版
+
 - 3.0.5
   
   - 更换smc电池驱动，提升性能
@@ -81,9 +85,11 @@ airbook支持macos bigsur ，所有kext驱动更新最新，经过测试睡眠�
 
 ## 效果截图
 
+![7](./assets/11.jpg)
+
 ### 系统
 
-![7](./assets/7.jpg)
+![7](./assets/12.jpg)
 
 ### oc版本
 
