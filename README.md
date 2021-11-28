@@ -1,6 +1,6 @@
 # airbook-6200u-efi
 
-[![macOS](https://img.shields.io/badge/macOS-11.6.1-orange)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.5-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
+[![macOS](https://img.shields.io/badge/macOS-11.6.1-orange)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.6-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
 
 ## 介绍
 airbook支持macos bigsur ，经过测试睡眠完美，随航可用
@@ -68,6 +68,10 @@ airbook支持macos bigsur ，经过测试睡眠完美，随航可用
 
 ## 变更记录
 
+- 3.1.3
+  
+  - 升级oc 0.7.6 升级相关kext驱动
+  
 - 3.1.2
   
   - 加一个主题
