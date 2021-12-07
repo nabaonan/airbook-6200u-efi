@@ -1,14 +1,19 @@
 # airbook-6200u-efi
 
-[![macOS](https://img.shields.io/badge/macOS-12.0.1-blueviolet)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.5-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
+[![macOS](https://img.shields.io/badge/macOS-12.1beta(21C5045a)-blueviolet)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.6-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
 
 ## 介绍
 airbook支持monterey ，所有kext驱动更新最新
 
 ## 已知问题
 
-- 睡眠后触摸板会禁用，再睡一次就会好，以此类推，交替复现
+- 电池电量不显示闪电(需要关机一段时间之后在启动有时候就会好，暂时不太清楚原因)
+
 - 无线随航不太好使，有线随航可以
+
+- 如果充电状态闪电可以显示，盒盖睡眠就正常
+
+  
 
 ## 基本配置
 
@@ -27,18 +32,18 @@ airbook支持monterey ，所有kext驱动更新最新
 | 名称                  | 版本                                                         | 描述                       |
 | --------------------- | ------------------------------------------------------------ | -------------------------- |
 | AirportBcrmFixup      | ![](https://img.shields.io/badge/version-2.1.3-informational) | wifi                       |
-| AppleALC              | ![](https://img.shields.io/badge/version-1.6.7-informational) | 声卡                       |
-| BcrmPatchRAM3         | ![](https://img.shields.io/badge/version-2.6.2-informational) | 蓝牙                       |
-| BrcmBluetoothInjector | ![](https://img.shields.io/badge/version-2.6.2-informational) | 蓝牙                       |
-| BrcmFirmwareData      | ![](https://img.shields.io/badge/version-2.6.2-informational) | 蓝牙                       |
-| HibernationFixup      | ![](https://img.shields.io/badge/version-1.4.6-informational) | 修复睡眠                   |
-| Lilu                  | ![](https://img.shields.io/badge/version-1.5.8-informational) | 核心                       |
-| VoodooPS2Controller   | ![](https://img.shields.io/badge/version-2.2.8-informational) | 触摸板和键盘               |
-| WhateverGreen         | ![](https://img.shields.io/badge/version-1.5.6-informational) | 显卡                       |
-| VirtualSMC            | ![](https://img.shields.io/badge/version-1.2.8-informational) | 核心                       |
-| SMCProcessor          | ![](https://img.shields.io/badge/version-1.2.8-informational) | 处理器温度                 |
-| SMCBatteryManager     | ![](https://img.shields.io/badge/version-1.2.8-informational) | 电池驱动                   |
-| SMCSuperIO            | ![](https://img.shields.io/badge/version-1.2.8-informational) | 温度检测                   |
+| AppleALC              | ![](https://img.shields.io/badge/version-1.6.6-informational) | 声卡                       |
+| BcrmPatchRAM3         | ![](https://img.shields.io/badge/version-2.6.1-informational) | 蓝牙                       |
+| BrcmBluetoothInjector | ![](https://img.shields.io/badge/version-2.6.1-informational) | 蓝牙                       |
+| BrcmFirmwareData      | ![](https://img.shields.io/badge/version-2.6.1-informational) | 蓝牙                       |
+| HibernationFixup      | ![](https://img.shields.io/badge/version-1.4.5-informational) | 修复睡眠                   |
+| Lilu                  | ![](https://img.shields.io/badge/version-1.5.7-informational) | 核心                       |
+| VoodooPS2Controller   | ![](https://img.shields.io/badge/version-2.2.4-informational) | 触摸板和键盘               |
+| WhateverGreen         | ![](https://img.shields.io/badge/version-1.5.5-informational) | 显卡                       |
+| VirtualSMC            | ![](https://img.shields.io/badge/version-1.2.7-informational) | 核心                       |
+| SMCProcessor          | ![](https://img.shields.io/badge/version-1.2.7-informational) | 处理器温度                 |
+| SMCBatteryManager     | ![](https://img.shields.io/badge/version-1.2.7-informational) | 电池驱动                   |
+| SMCSuperIO            | ![](https://img.shields.io/badge/version-1.2.7-informational) | 温度检测                   |
 | ECEnabler             | ![](https://img.shields.io/badge/version-1.0.2-informational) | 电池驱动依赖，不用拆字节了 |
 | USBPorts              |                                                              | usb定制                    |
 
@@ -65,6 +70,8 @@ airbook支持monterey ，所有kext驱动更新最新
 
 ## 变更记录
 
+- 4.1.2
+  - 升级oc0.7.6正式版 更新驱动，支持最新系统到12.1beta
 - 4.1.1
   - 更新oc0.7.5正式版，所有驱动更新最新正式版
 - 4.1.0
