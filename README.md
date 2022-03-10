@@ -1,6 +1,6 @@
 # airbook-6200u-efi
 
-[![macOS](https://img.shields.io/badge/macOS-12.3-blueviolet)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.8-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
+[![macOS](https://img.shields.io/badge/macOS-12.3-blueviolet)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.9-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
 
 ## 介绍
 airbook支持monterey ，所有kext驱动更新最新
@@ -14,6 +14,8 @@ airbook支持monterey ，所有kext驱动更新最新
 - 如果充电状态闪电可以显示，盒盖睡眠就正常
 
 - 使用电池启动，在不插电的情况下，耗电到10%以下如果再插电不会显示闪电
+
+- 【已修复】不插电启动或者不插电睡眠唤醒，在电量10%以下出现提示的情况下，插电会直接黑屏  
 
   
 
@@ -34,18 +36,18 @@ airbook支持monterey ，所有kext驱动更新最新
 | 名称                         | 版本                                                         | 描述                       |
 | ---------------------------- | ------------------------------------------------------------ | -------------------------- |
 | AirportBcrmFixup             | ![](https://img.shields.io/badge/version-2.1.4-informational) | wifi                       |
-| AppleALC                     | ![](https://img.shields.io/badge/version-1.6.9-informational) | 声卡                       |
+| AppleALC                     | ![](https://img.shields.io/badge/version-1.7.0-informational) | 声卡                       |
 | BcrmPatchRAM3                | ![](https://img.shields.io/badge/version-2.6.1-informational) | 蓝牙                       |
 | BrcmBluetoothInjector        | ![](https://img.shields.io/badge/version-2.6.1-informational) | 蓝牙                       |
 | BrcmFirmwareData             | ![](https://img.shields.io/badge/version-2.6.1-informational) | 蓝牙                       |
 | HibernationFixup             | ![](https://img.shields.io/badge/version-1.4.5-informational) | 修复睡眠                   |
 | Lilu                         | ![](https://img.shields.io/badge/version-1.6.0-informational) | 核心                       |
 | VoodooPS2Controller          | ![](https://img.shields.io/badge/version-2.2.4-informational) | 触摸板和键盘               |
-| WhateverGreen                | ![](https://img.shields.io/badge/version-1.5.7-informational) | 显卡                       |
-| VirtualSMC                   | ![](https://img.shields.io/badge/version-1.2.8-informational) | 核心                       |
-| SMCProcessor                 | ![](https://img.shields.io/badge/version-1.2.8-informational) | 处理器温度                 |
-| SMCBatteryManager            | ![](https://img.shields.io/badge/version-1.2.8-informational) | 电池驱动                   |
-| SMCSuperIO                   | ![](https://img.shields.io/badge/version-1.2.8-informational) | 温度检测                   |
+| WhateverGreen                | ![](https://img.shields.io/badge/version-1.5.8-informational) | 显卡                       |
+| VirtualSMC                   | ![](https://img.shields.io/badge/version-1.2.9-informational) | 核心                       |
+| SMCProcessor                 | ![](https://img.shields.io/badge/version-1.2.9-informational) | 处理器温度                 |
+| SMCBatteryManager            | ![](https://img.shields.io/badge/version-1.2.9-informational) | 电池驱动                   |
+| SMCSuperIO                   | ![](https://img.shields.io/badge/version-1.2.9-informational) | 温度检测                   |
 | ECEnabler                    | ![](https://img.shields.io/badge/version-1.0.2-informational) | 电池驱动依赖，不用拆字节了 |
 | USBPorts                     |                                                              | usb定制                    |
 | RealtekCardReaderFriend.kext | ![](https://img.shields.io/badge/version-1.0.2-informational) |                            |
@@ -74,6 +76,10 @@ airbook支持monterey ，所有kext驱动更新最新
 
 ## 变更记录
 
+- 4.1.8
+  - 更新oc0.7.9
+- 4.1.7
+  - fix: 修复低电量开机，插电直接黑屏的问题
 - 4.1.6
   - 更新oc0.7.8和驱动
 - 4.1.5
