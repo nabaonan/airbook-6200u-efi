@@ -46,7 +46,7 @@ airbook支持monterey ，所有kext驱动更新最新
 | WhateverGreen                | ![](https://img.shields.io/badge/version-1.5.8-informational) | 显卡                       |
 | VirtualSMC                   | ![](https://img.shields.io/badge/version-1.2.9-informational) | 核心                       |
 | SMCProcessor                 | ![](https://img.shields.io/badge/version-1.2.9-informational) | 处理器温度                 |
-| SMCBatteryManager            | ![](https://img.shields.io/badge/version-1.2.9-informational) | 电池驱动                   |
+| ACPIBatteryManager           | ![](https://img.shields.io/badge/version-1.90.1-informational) | 电池驱动                   |
 | SMCSuperIO                   | ![](https://img.shields.io/badge/version-1.2.9-informational) | 温度检测                   |
 | ECEnabler                    | ![](https://img.shields.io/badge/version-1.0.2-informational) | 电池驱动依赖，不用拆字节了 |
 | USBPorts                     |                                                              | usb定制                    |
@@ -76,6 +76,8 @@ airbook支持monterey ，所有kext驱动更新最新
 
 ## 变更记录
 
+- 4.1.10
+  - 替换电池驱动为acpi battery manager  解决cpu占用高的问题，优化性能
 - 4.1.9
   - 更新0.8.0
 - 4.1.8
