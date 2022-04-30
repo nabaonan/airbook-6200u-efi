@@ -692,7 +692,7 @@
                     <key>BundlePath</key>
                     <string>ACPIBatteryManager.kext</string>
                     <key>Comment</key>
-                    <string>V1.90.1</string>
+                    <string>V1.81.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
