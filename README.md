@@ -17,6 +17,27 @@ airbook支持monterey ，所有kext驱动更新最新
 
 - 【已修复】不插电启动或者不插电睡眠唤醒，在电量10%以下出现提示的情况下，插电会直接黑屏  
 
+- Acpi battery 1.81.4
+
+  - 无法正常盒盖睡眠和开盖唤醒，低于10%电量不会黑屏，
+  - 电池状态改变缓慢
+  - 非跑码可以显示闪电
+  - 
+  
+- acpi battery 1.90.1 
+
+  - 不可正常显示闪电
+  - 电池状态改变正常
+  - 低于10%电量黑屏
+  - Cpu性能高一些
+  
+- smc battery
+
+  - 电池状态正常
+  - 低于10%在插电会黑屏
+  - 非跑码模式不显示闪电
+  - 性能不大差距
+  
   
 
 ## 基本配置
@@ -46,7 +67,7 @@ airbook支持monterey ，所有kext驱动更新最新
 | WhateverGreen                | ![](https://img.shields.io/badge/version-1.5.8-informational) | 显卡                       |
 | VirtualSMC                   | ![](https://img.shields.io/badge/version-1.2.9-informational) | 核心                       |
 | SMCProcessor                 | ![](https://img.shields.io/badge/version-1.2.9-informational) | 处理器温度                 |
-| ACPIBatteryManager           | ![](https://img.shields.io/badge/version-1.81.4-informational) | 电池驱动                   |
+| SMCBatteryManager            | ![](https://img.shields.io/badge/version-1.2.9-informational) | 电池驱动                   |
 | SMCSuperIO                   | ![](https://img.shields.io/badge/version-1.2.9-informational) | 温度检测                   |
 | ECEnabler                    | ![](https://img.shields.io/badge/version-1.0.2-informational) | 电池驱动依赖，不用拆字节了 |
 | USBPorts                     |                                                              | usb定制                    |
@@ -76,6 +97,10 @@ airbook支持monterey ，所有kext驱动更新最新
 
 ## 变更记录
 
+- 4.1.13
+  - 恢复使用smc电池驱动，性能差距不大
+- 4.1.12
+  - 1.90.1电池驱动，解决盒盖睡眠，但是存在低于电量10% 黑屏问题
 - 4.1.11
   - 降电池版本驱动，非跑码模式正常显示,解决低电量黑屏的问题
 - 4.1.10
