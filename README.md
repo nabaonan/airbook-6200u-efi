@@ -1,6 +1,6 @@
 # airbook-6200u-efi
 
-[![macOS](https://img.shields.io/badge/macOS-12.3.1-blueviolet)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.0-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
+[![macOS](https://img.shields.io/badge/macOS-12.4-blueviolet)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.1-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
 
 ## 介绍
 airbook支持monterey ，所有kext驱动更新最新
@@ -8,29 +8,22 @@ airbook支持monterey ，所有kext驱动更新最新
 ## 已知问题
 
 - 电池电量不显示闪电(需要关机一段时间之后在启动有时候就会好，暂时不太清楚原因)12.1已经解决这个问题
-
 - 无线随航不太好使，有线随航可以
-
 - 如果充电状态闪电可以显示，盒盖睡眠就正常
-
 - 使用电池启动，在不插电的情况下，耗电到10%以下如果再插电不会显示闪电
-
 - 【已修复】不插电启动或者不插电睡眠唤醒，在电量10%以下出现提示的情况下，插电会直接黑屏  
-
 - Acpi battery 1.81.4
 
   - 无法正常盒盖睡眠和开盖唤醒，低于10%电量不会黑屏，
   - 电池状态改变缓慢
   - 非跑码可以显示闪电
   - 
-  
 - acpi battery 1.90.1 
 
   - 不可正常显示闪电
   - 电池状态改变正常
   - 低于10%电量黑屏
   - Cpu性能高一些
-  
 - smc battery
 
   - 电池状态正常
@@ -38,7 +31,9 @@ airbook支持monterey ，所有kext驱动更新最新
   - 非跑码模式不显示闪电
   - 性能不大差距
   
-  
+- 解决待机耗电高的问题,经测试睡眠一晚8小时耗电1%
+  - proximitywake设置为0.   `sudo pmset -b proximitywake 0`
+  - tcpkeepalive设置为0       `sudo pmset -b tcpkeepalive 0`
 
 ## 基本配置
 
@@ -56,22 +51,22 @@ airbook支持monterey ，所有kext驱动更新最新
 
 | 名称                         | 版本                                                         | 描述                       |
 | ---------------------------- | ------------------------------------------------------------ | -------------------------- |
-| AirportBcrmFixup             | ![](https://img.shields.io/badge/version-2.1.4-informational) | wifi                       |
-| AppleALC                     | ![](https://img.shields.io/badge/version-1.7.0-informational) | 声卡                       |
-| BcrmPatchRAM3                | ![](https://img.shields.io/badge/version-2.6.1-informational) | 蓝牙                       |
-| BrcmBluetoothInjector        | ![](https://img.shields.io/badge/version-2.6.1-informational) | 蓝牙                       |
-| BrcmFirmwareData             | ![](https://img.shields.io/badge/version-2.6.1-informational) | 蓝牙                       |
+| AirportBcrmFixup             | ![](https://img.shields.io/badge/version-2.1.5-informational) | wifi                       |
+| AppleALC                     | ![](https://img.shields.io/badge/version-1.7.2-informational) | 声卡                       |
+| BcrmPatchRAM3                | ![](https://img.shields.io/badge/version-2.6.2-informational) | 蓝牙                       |
+| BrcmBluetoothInjector        | ![](https://img.shields.io/badge/version-2.6.2-informational) | 蓝牙                       |
+| BrcmFirmwareData             | ![](https://img.shields.io/badge/version-2.6.2-informational) | 蓝牙                       |
 | HibernationFixup             | ![](https://img.shields.io/badge/version-1.4.5-informational) | 修复睡眠                   |
 | Lilu                         | ![](https://img.shields.io/badge/version-1.6.0-informational) | 核心                       |
 | VoodooPS2Controller          | ![](https://img.shields.io/badge/version-2.2.4-informational) | 触摸板和键盘               |
-| WhateverGreen                | ![](https://img.shields.io/badge/version-1.5.8-informational) | 显卡                       |
+| WhateverGreen                | ![](https://img.shields.io/badge/version-1.5.9-informational) | 显卡                       |
 | VirtualSMC                   | ![](https://img.shields.io/badge/version-1.2.9-informational) | 核心                       |
 | SMCProcessor                 | ![](https://img.shields.io/badge/version-1.2.9-informational) | 处理器温度                 |
 | SMCBatteryManager            | ![](https://img.shields.io/badge/version-1.2.9-informational) | 电池驱动                   |
 | SMCSuperIO                   | ![](https://img.shields.io/badge/version-1.2.9-informational) | 温度检测                   |
 | ECEnabler                    | ![](https://img.shields.io/badge/version-1.0.2-informational) | 电池驱动依赖，不用拆字节了 |
 | USBPorts                     |                                                              | usb定制                    |
-| RealtekCardReaderFriend.kext | ![](https://img.shields.io/badge/version-1.0.2-informational) |                            |
+| RealtekCardReaderFriend.kext | ![](https://img.shields.io/badge/version-1.0.3-informational) |                            |
 | RealtekCardReader.kext       | ![](https://img.shields.io/badge/version-0.9.6-informational) |                            |
 
 ## 功能完善度
@@ -97,6 +92,9 @@ airbook支持monterey ，所有kext驱动更新最新
 
 ## 变更记录
 
+- 4.1.15
+  - 更新kext驱动
+  
 - 4.1.13
   - 恢复使用smc电池驱动，性能差距不大
 - 4.1.12
@@ -158,7 +156,7 @@ airbook支持monterey ，所有kext驱动更新最新
 
 ### Geekbench5跑分
 
-![8](./assets/17.jpg)
+![8](./assets/21.jpg)
 
 ### USB定制
 
@@ -167,3 +165,43 @@ airbook支持monterey ，所有kext驱动更新最新
 ### 读卡器
 
 ![](./assets/20.jpg)
+
+![](./assets/22.jpg)
+
+#### 读卡器速度 普通卡（U1 C10 A1）速度
+
+![](./assets/23.jpg)
+
+#### 相机 sd卡（U3  C10 V30） 读卡器的速度：
+
+![](./assets/25.jpg)
+
+
+
+
+
+#### 固态硬盘速度
+
+![](./assets/24.jpg)
+
+
+
+## bios相关配置参考：
+
+![](./assets/bios/IMG_0149.jpeg)
+
+![](./assets/bios/IMG_0150.jpeg)
+
+![](./assets/bios/IMG_0151.jpeg)
+
+
+
+![](./assets/bios/IMG_0152.jpeg)
+
+![](./assets/bios/IMG_0153.jpeg)
+
+![](./assets/bios/IMG_0154.jpeg)
+
+
+
+![](./assets/bios/IMG_0155.jpeg)
