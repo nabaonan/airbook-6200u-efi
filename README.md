@@ -1,13 +1,14 @@
 # airbook-6200u-efi
 
-[![macOS](https://img.shields.io/badge/macOS-12.4-blueviolet)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.2-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
+[![macOS](https://img.shields.io/badge/macOS-12.5-blueviolet)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.3-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
 
 ## 介绍
 airbook支持monterey ，所有kext驱动更新最新
 
 ## 已知问题
 
-- Apple ALC 1.7.3 在oc0.8.2 会导致卡代码，所以锁定到1.7.2 
+
+
 - 电池电量不显示闪电(需要关机一段时间之后在启动有时候就会好，暂时不太清楚原因)12.1已经解决这个问题
 - 无线随航不太好使，有线随航可以
 - 如果充电状态闪电可以显示，盒盖睡眠就正常
@@ -31,7 +32,7 @@ airbook支持monterey ，所有kext驱动更新最新
   - 低于10%在插电会黑屏
   - 非跑码模式不显示闪电
   - 性能不大差距
-  
+
 - 解决待机耗电高的问题,经测试睡眠一晚8小时耗电1%
   - proximitywake设置为0.   `sudo pmset -b proximitywake 0`
   - tcpkeepalive设置为0       `sudo pmset -b tcpkeepalive 0`
@@ -52,20 +53,20 @@ airbook支持monterey ，所有kext驱动更新最新
 
 | 名称                         | 版本                                                         | 描述                       |
 | ---------------------------- | ------------------------------------------------------------ | -------------------------- |
-| AirportBcrmFixup             | ![](https://img.shields.io/badge/version-2.1.5-informational) | wifi                       |
-| AppleALC                     | ![](https://img.shields.io/badge/version-1.7.2-informational) | 声卡                       |
+| AirportBcrmFixup             | ![](https://img.shields.io/badge/version-2.1.6-informational) | wifi                       |
+| AppleALC                     | ![](https://img.shields.io/badge/version-1.7.4-informational) | 声卡                       |
 | BcrmPatchRAM3                | ![](https://img.shields.io/badge/version-2.6.3-informational) | 蓝牙                       |
 | BrcmBluetoothInjector        | ![](https://img.shields.io/badge/version-2.6.3-informational) | 蓝牙                       |
 | BrcmFirmwareData             | ![](https://img.shields.io/badge/version-2.6.3-informational) | 蓝牙                       |
-| HibernationFixup             | ![](https://img.shields.io/badge/version-1.4.5-informational) | 修复睡眠                   |
-| Lilu                         | ![](https://img.shields.io/badge/version-1.6.1-informational) | 核心                       |
+| HibernationFixup             | ![](https://img.shields.io/badge/version-1.4.6-informational) | 修复睡眠                   |
+| Lilu                         | ![](https://img.shields.io/badge/version-1.6.2-informational) | 核心                       |
 | VoodooPS2Controller          | ![](https://img.shields.io/badge/version-2.2.4-informational) | 触摸板和键盘               |
-| WhateverGreen                | ![](https://img.shields.io/badge/version-1.6.0-informational) | 显卡                       |
+| WhateverGreen                | ![](https://img.shields.io/badge/version-1.6.1-informational) | 显卡                       |
 | VirtualSMC                   | ![](https://img.shields.io/badge/version-1.3.0-informational) | 核心                       |
 | SMCProcessor                 | ![](https://img.shields.io/badge/version-1.3.0-informational) | 处理器温度                 |
 | SMCBatteryManager            | ![](https://img.shields.io/badge/version-1.3.0-informational) | 电池驱动                   |
 | SMCSuperIO                   | ![](https://img.shields.io/badge/version-1.3.0-informational) | 温度检测                   |
-| ECEnabler                    | ![](https://img.shields.io/badge/version-1.0.2-informational) | 电池驱动依赖，不用拆字节了 |
+| ECEnabler                    | ![](https://img.shields.io/badge/version-1.0.3-informational) | 电池驱动依赖，不用拆字节了 |
 | USBPorts                     |                                                              | usb定制                    |
 | RealtekCardReaderFriend.kext | ![](https://img.shields.io/badge/version-1.0.3-informational) |                            |
 | RealtekCardReader.kext       | ![](https://img.shields.io/badge/version-0.9.6-informational) |                            |
