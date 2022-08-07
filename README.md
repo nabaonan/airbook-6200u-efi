@@ -1,41 +1,17 @@
 # airbook-6200u-efi
 
-[![macOS](https://img.shields.io/badge/macOS-12.5-blueviolet)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.3-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
+[![macOS](https://img.shields.io/badge/macOS-13.0 beta-yellow)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.3-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
 
 ## 介绍
-airbook支持monterey ，所有kext驱动更新最新
+airbook支持ventura ，所有kext驱动更新最新
 
 ## 已知问题
 
 
 
-- 电池电量不显示闪电(需要关机一段时间之后在启动有时候就会好，暂时不太清楚原因)12.1已经解决这个问题
-- 无线随航不太好使，有线随航可以
-- 如果充电状态闪电可以显示，盒盖睡眠就正常
-- 使用电池启动，在不插电的情况下，耗电到10%以下如果再插电不会显示闪电
-- 【已修复】不插电启动或者不插电睡眠唤醒，在电量10%以下出现提示的情况下，插电会直接黑屏  
-- Acpi battery 1.81.4
-
-  - 无法正常盒盖睡眠和开盖唤醒，低于10%电量不会黑屏，
-  - 电池状态改变缓慢
-  - 非跑码可以显示闪电
-  - 
-- acpi battery 1.90.1 
-
-  - 不可正常显示闪电
-  - 电池状态改变正常
-  - 低于10%电量黑屏
-  - Cpu性能高一些
-- smc battery
-
-  - 电池状态正常
-  - 低于10%在插电会黑屏
-  - 非跑码模式不显示闪电
-  - 性能不大差距
-
-- 解决待机耗电高的问题,经测试睡眠一晚8小时耗电1%
-  - proximitywake设置为0.   `sudo pmset -b proximitywake 0`
-  - tcpkeepalive设置为0       `sudo pmset -b tcpkeepalive 0`
+- 闪屏，等待驱动更新后解决
+- 外接屏幕紫色屏幕
+- cpu占用显示一直满载，但是实际上不影响
 
 ## 基本配置
 
@@ -88,52 +64,14 @@ airbook支持monterey ，所有kext驱动更新最新
 - [x] 摄像头正常使用
 - [x] 盒盖睡眠
 - [ ] 随航（有线可以，无线不行）
-- [x] 内置sd卡识别
+- [ ] 内置sd卡识别
 
 
 
 ## 变更记录
 
-- 4.1.16
-  - 更新oc0.8.2和kext
+- 
   
-- 4.1.15
-  - 更新kext驱动
-
-- 4.1.13
-  - 恢复使用smc电池驱动，性能差距不大
-- 4.1.12
-  - 1.90.1电池驱动，解决盒盖睡眠，但是存在低于电量10% 黑屏问题
-- 4.1.11
-  - 降电池版本驱动，非跑码模式正常显示,解决低电量黑屏的问题
-- 4.1.10
-  - 替换电池驱动为acpi battery manager  解决cpu占用高的问题，优化性能
-- 4.1.9
-  - 更新0.8.0
-- 4.1.8
-  - 更新oc0.7.9
-- 4.1.7
-  - fix: 修复低电量开机，插电直接黑屏的问题
-- 4.1.6
-  - 更新oc0.7.8和驱动
-- 4.1.5
-  - 更新oc 0.7.7和驱动
-- 4.1.4
-  - 修复电池启动会出现黑屏的情况，调高分屏framebuffer 缓冲帧内存
-- 4.1.3
-  - 更新kext到最新
-- 4.1.2
-  - 升级oc0.7.6正式版 更新驱动，支持最新系统到12.1beta
-- 4.1.1
-  - 更新oc0.7.5正式版，所有驱动更新最新正式版
-- 4.1.0
-  - 成功驱动sd卡
-- 4.0.1
-  - 修复蓝牙不可用的问题
-- 4.0.0
-  - 基本完美支持macos12  随航不知为何不能用，其余都正常
-
-
 
 ## 效果截图
 
@@ -141,53 +79,49 @@ airbook支持monterey ，所有kext驱动更新最新
 
 ### 系统
 
+![1](./assets/1.jpg)
 
 
-![7](./assets/13.jpg)
 
 ### oc版本
 
-![7](./assets/18.jpg)
+![1](./assets/2.jpg)
 
 ### 电池状态：
 
-![5](./assets/19.jpg)
 
-![5](./assets/14.jpg)
 
-![5](./assets/15.jpg)
+
+
+
 
 
 
 ### Geekbench5跑分
 
-![8](./assets/21.jpg)
+
 
 ### USB定制
 
-![8](./assets/8.jpg)
+
 
 ### 读卡器
 
-![](./assets/20.jpg)
 
-![](./assets/22.jpg)
+
+
 
 #### 读卡器速度 普通卡（U1 C10 A1）速度
 
-![](./assets/23.jpg)
+
 
 #### 相机 sd卡（U3  C10 V30） 读卡器的速度：
-
-![](./assets/25.jpg)
-
-
 
 
 
 #### 固态硬盘速度
 
-![](./assets/24.jpg)
+
 
 
 
