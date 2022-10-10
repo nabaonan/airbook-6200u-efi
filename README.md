@@ -1,17 +1,13 @@
 # airbook-6200u-efi
 
-[![macOS](https://img.shields.io/badge/macOS-13.0_beta-yellow)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.3-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
+[![macOS](https://img.shields.io/badge/macOS-13.0_beta8-yellow)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.4-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
 
 ## 介绍
 airbook支持ventura ，所有kext驱动更新最新
 
 ## 已知问题
 
-
-
-- 闪屏，等待驱动更新后解决. 关闭hidpi可以解决
-- 外接屏幕紫色屏幕 
-- cpu占用显示一直满载，但是实际上不影响
+- 开hidpi闪屏  或者分辨率开到2.5k闪屏
 
 ## 基本配置
 
@@ -31,9 +27,9 @@ airbook支持ventura ，所有kext驱动更新最新
 | ---------------------------- | ------------------------------------------------------------ | -------------------------- |
 | AirportBcrmFixup             | ![](https://img.shields.io/badge/version-2.1.7-informational) | wifi                       |
 | AppleALC                     | ![](https://img.shields.io/badge/version-1.7.5-informational) | 声卡                       |
-| BcrmPatchRAM3                | ![](https://img.shields.io/badge/version-2.6.3-informational) | 蓝牙                       |
-| BrcmBluetoothInjector        | ![](https://img.shields.io/badge/version-2.6.3-informational) | 蓝牙                       |
-| BrcmFirmwareData             | ![](https://img.shields.io/badge/version-2.6.3-informational) | 蓝牙                       |
+| BcrmPatchRAM3                | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                       |
+| BlueToolFixup                | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                       |
+| BrcmFirmwareData             | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                       |
 | HibernationFixup             | ![](https://img.shields.io/badge/version-1.4.7-informational) | 修复睡眠                   |
 | Lilu                         | ![](https://img.shields.io/badge/version-1.6.3-informational) | 核心                       |
 | VoodooPS2Controller          | ![](https://img.shields.io/badge/version-2.2.4-informational) | 触摸板和键盘               |
@@ -70,9 +66,20 @@ airbook支持ventura ，所有kext驱动更新最新
 
 ## 变更记录
 
+- 5.5
+  - 更新驱动和oc084
+  
+- 5.4
+  - 解决外接显示紫色屏幕的问题
+
+- 5.3
+  - 更新hackintosh主题
+  - 增加启动画面截屏
+  - 修改睡眠唤醒wifi断开问题，更新驱动
+
 - 5.2
   - 基本完美，完善驱动和机型
-  
+
 
 ## 效果截图
 
@@ -82,7 +89,9 @@ airbook支持ventura ，所有kext驱动更新最新
 
 ![1](./assets/1.jpg)
 
+### 美化启动界面
 
+![6](./assets/6.png)
 
 ### oc版本
 
