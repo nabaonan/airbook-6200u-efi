@@ -1,6 +1,6 @@
 # airbook-6200u-efi
 
-[![macOS](https://img.shields.io/badge/macOS-13.0_beta8-yellow)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.4-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
+[![macOS](https://img.shields.io/badge/macOS-13.0_beta10-yellow)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.5-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
 
 ## 介绍
 airbook支持ventura ，所有kext驱动更新最新
@@ -25,19 +25,19 @@ airbook支持ventura ，所有kext驱动更新最新
 
 | 名称                         | 版本                                                         | 描述                       |
 | ---------------------------- | ------------------------------------------------------------ | -------------------------- |
-| AirportBcrmFixup             | ![](https://img.shields.io/badge/version-2.1.7-informational) | wifi                       |
+| AirportBcrmFixup             | ![](https://img.shields.io/badge/version-2.1.6-informational) | wifi                       |
 | AppleALC                     | ![](https://img.shields.io/badge/version-1.7.5-informational) | 声卡                       |
-| BcrmPatchRAM3                | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                       |
-| BlueToolFixup                | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                       |
-| BrcmFirmwareData             | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                       |
+| BcrmPatchRAM3                | ![](https://img.shields.io/badge/version-2.6.3-informational) | 蓝牙                       |
+| BlueToolFixup                | ![](https://img.shields.io/badge/version-2.6.3-informational) | 蓝牙                       |
+| BrcmFirmwareData             | ![](https://img.shields.io/badge/version-2.6.3-informational) | 蓝牙                       |
 | HibernationFixup             | ![](https://img.shields.io/badge/version-1.4.7-informational) | 修复睡眠                   |
 | Lilu                         | ![](https://img.shields.io/badge/version-1.6.3-informational) | 核心                       |
 | VoodooPS2Controller          | ![](https://img.shields.io/badge/version-2.2.4-informational) | 触摸板和键盘               |
-| WhateverGreen                | ![](https://img.shields.io/badge/version-1.6.2-informational) | 显卡                       |
-| VirtualSMC                   | ![](https://img.shields.io/badge/version-1.3.1-informational) | 核心                       |
-| SMCProcessor                 | ![](https://img.shields.io/badge/version-1.3.1-informational) | 处理器温度                 |
-| SMCBatteryManager            | ![](https://img.shields.io/badge/version-1.3.1-informational) | 电池驱动                   |
-| SMCSuperIO                   | ![](https://img.shields.io/badge/version-1.3.1-informational) | 温度检测                   |
+| WhateverGreen                | ![](https://img.shields.io/badge/version-1.6.1-informational) | 显卡                       |
+| VirtualSMC                   | ![](https://img.shields.io/badge/version-1.3.0-informational) | 核心                       |
+| SMCProcessor                 | ![](https://img.shields.io/badge/version-1.3.0-informational) | 处理器温度                 |
+| SMCBatteryManager            | ![](https://img.shields.io/badge/version-1.3.0-informational) | 电池驱动                   |
+| SMCSuperIO                   | ![](https://img.shields.io/badge/version-1.3.0-informational) | 温度检测                   |
 | ECEnabler                    | ![](https://img.shields.io/badge/version-1.0.3-informational) | 电池驱动依赖，不用拆字节了 |
 | USBPorts                     |                                                              | usb定制                    |
 | RealtekCardReaderFriend.kext | ![](https://img.shields.io/badge/version-1.0.3-informational) |                            |
