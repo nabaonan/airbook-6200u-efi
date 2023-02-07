@@ -1,13 +1,13 @@
 # airbook-6200u-efi
 
-[![macOS](https://img.shields.io/badge/macOS-13.0.1-yellow)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.6-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
+[![macOS](https://img.shields.io/badge/macOS-13.1-yellow)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.8-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
 
 ## 介绍
 airbook支持ventura ，所有kext驱动更新最新
 
 ## 已知问题
 
-- 开hidpi闪屏  或者分辨率开到2.5k闪屏
+
 
 ## 基本配置
 
@@ -26,14 +26,14 @@ airbook支持ventura ，所有kext驱动更新最新
 | 名称                         | 版本                                                         | 描述                       |
 | ---------------------------- | ------------------------------------------------------------ | -------------------------- |
 | AirportBcrmFixup             | ![](https://img.shields.io/badge/version-2.1.6-informational) | wifi                       |
-| AppleALC                     | ![](https://img.shields.io/badge/version-1.7.5-informational) | 声卡                       |
+| AppleALC                     | ![](https://img.shields.io/badge/version-1.7.8-informational) | 声卡                       |
 | BcrmPatchRAM3                | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                       |
 | BlueToolFixup                | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                       |
 | BrcmFirmwareData             | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                       |
 | HibernationFixup             | ![](https://img.shields.io/badge/version-1.4.7-informational) | 修复睡眠                   |
 | Lilu                         | ![](https://img.shields.io/badge/version-1.6.3-informational) | 核心                       |
 | VoodooPS2Controller          | ![](https://img.shields.io/badge/version-2.2.4-informational) | 触摸板和键盘               |
-| WhateverGreen                | ![](https://img.shields.io/badge/version-1.6.1-informational) | 显卡                       |
+| WhateverGreen                | ![](https://img.shields.io/badge/version-1.6.4-informational) | 显卡                       |
 | VirtualSMC                   | ![](https://img.shields.io/badge/version-1.3.0-informational) | 核心                       |
 | SMCProcessor                 | ![](https://img.shields.io/badge/version-1.3.0-informational) | 处理器温度                 |
 | SMCBatteryManager            | ![](https://img.shields.io/badge/version-1.3.0-informational) | 电池驱动                   |
@@ -66,26 +66,23 @@ airbook支持ventura ，所有kext驱动更新最新
 
 ## 变更记录
 
+- 5.9
+  - 解决hidpi开启闪屏问题，更新weg驱动1.6.4
+  
 - 5.8.1
   - 定制usb 解决丢失sd卡不识别
-  
 - 5.8
   - 更新0.8.6，更新sd卡驱动，解决睡眠唤醒掉sd卡的问题
-
 - 5.6
   - 更新085
-
 - 5.5
   - 更新驱动和oc084
-
 - 5.4
   - 解决外接显示紫色屏幕的问题
-
 - 5.3
   - 更新hackintosh主题
   - 增加启动画面截屏
   - 修改睡眠唤醒wifi断开问题，更新驱动
-
 - 5.2
   - 基本完美，完善驱动和机型
 
