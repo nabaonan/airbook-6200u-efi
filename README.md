@@ -7,7 +7,7 @@ airbook支持ventura ，所有kext驱动更新最新
 
 ## 已知问题
 
-
+电量低于15会黑屏死机
 
 ## 基本配置
 
@@ -23,25 +23,26 @@ airbook支持ventura ，所有kext驱动更新最新
 
 ## 系统驱动
 
-| 名称                         | 版本                                                         | 描述                       |
-| ---------------------------- | ------------------------------------------------------------ | -------------------------- |
-| AirportBcrmFixup             | ![](https://img.shields.io/badge/version-2.1.6-informational) | wifi                       |
-| AppleALC                     | ![](https://img.shields.io/badge/version-1.7.8-informational) | 声卡                       |
-| BcrmPatchRAM3                | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                       |
-| BlueToolFixup                | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                       |
-| BrcmFirmwareData             | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                       |
-| HibernationFixup             | ![](https://img.shields.io/badge/version-1.4.7-informational) | 修复睡眠                   |
-| Lilu                         | ![](https://img.shields.io/badge/version-1.6.3-informational) | 核心                       |
-| VoodooPS2Controller          | ![](https://img.shields.io/badge/version-2.2.4-informational) | 触摸板和键盘               |
-| WhateverGreen                | ![](https://img.shields.io/badge/version-1.6.4-informational) | 显卡                       |
-| VirtualSMC                   | ![](https://img.shields.io/badge/version-1.3.0-informational) | 核心                       |
-| SMCProcessor                 | ![](https://img.shields.io/badge/version-1.3.0-informational) | 处理器温度                 |
-| SMCBatteryManager            | ![](https://img.shields.io/badge/version-1.3.0-informational) | 电池驱动                   |
-| SMCSuperIO                   | ![](https://img.shields.io/badge/version-1.3.0-informational) | 温度检测                   |
-| ECEnabler                    | ![](https://img.shields.io/badge/version-1.0.3-informational) | 电池驱动依赖，不用拆字节了 |
-| USBPorts                     |                                                              | usb定制                    |
-| RealtekCardReaderFriend.kext | ![](https://img.shields.io/badge/version-1.0.4-informational) |                            |
-| RealtekCardReader.kext       | ![](https://img.shields.io/badge/version-0.9.7-informational) |                            |
+| 名称                         | 版本                                                         | 描述                         |
+| ---------------------------- | ------------------------------------------------------------ | ---------------------------- |
+| AirportBcrmFixup             | ![](https://img.shields.io/badge/version-2.1.6-informational) | wifi                         |
+| AppleALC                     | ![](https://img.shields.io/badge/version-1.7.8-informational) | 声卡                         |
+| BcrmPatchRAM3                | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                         |
+| BlueToolFixup                | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                         |
+| BrcmFirmwareData             | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                         |
+| HibernationFixup             | ![](https://img.shields.io/badge/version-1.4.7-informational) | 修复睡眠                     |
+| Lilu                         | ![](https://img.shields.io/badge/version-1.6.3-informational) | 核心                         |
+| VoodooPS2Controller          | ![](https://img.shields.io/badge/version-2.2.4-informational) | 触摸板和键盘                 |
+| WhateverGreen                | ![](https://img.shields.io/badge/version-1.6.4-informational) | 显卡                         |
+| VirtualSMC                   | ![](https://img.shields.io/badge/version-1.3.0-informational) | 核心                         |
+| SMCProcessor                 | ![](https://img.shields.io/badge/version-1.3.0-informational) | 处理器温度                   |
+| SMCBatteryManager            | ![](https://img.shields.io/badge/version-1.3.0-informational) | 电池驱动（不用了）           |
+| ACPIBatteryManage            | ![](https://img.shields.io/badge/version-1.81.4-informational) | 旧版电池驱动（结合ssdt补丁） |
+| SMCSuperIO                   | ![](https://img.shields.io/badge/version-1.3.0-informational) | 温度检测                     |
+| ECEnabler                    | ![](https://img.shields.io/badge/version-1.0.3-informational) | 电池驱动依赖，不用拆字节了   |
+| USBPorts                     |                                                              | usb定制                      |
+| RealtekCardReaderFriend.kext | ![](https://img.shields.io/badge/version-1.0.4-informational) |                              |
+| RealtekCardReader.kext       | ![](https://img.shields.io/badge/version-0.9.7-informational) |                              |
 
 ## 功能完善度
 
@@ -66,9 +67,14 @@ airbook支持ventura ，所有kext驱动更新最新
 
 ## 变更记录
 
+
+
+- 5.10
+  - 改用acpibattery驱动 ，结合ssdt补丁 完美解决电池显示和盒盖睡眠，黑屏死机问题
+  
 - 5.9
   - 解决hidpi开启闪屏问题，更新weg驱动1.6.4
-  
+
 - 5.8.1
   - 定制usb 解决丢失sd卡不识别
 - 5.8
@@ -104,6 +110,10 @@ airbook支持ventura ，所有kext驱动更新最新
 ![1](./assets/2.jpg)
 
 
+
+### Geekbench6 跑分
+
+![3](./assets/7.png)
 
 ### Geekbench5跑分
 

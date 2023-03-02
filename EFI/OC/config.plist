@@ -62,6 +62,14 @@
                     <key>Path</key>
                     <string>SSDT-USBX.aml</string>
                 </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-3.aml</string>
+                </dict>
             </array>
             <key>Delete</key>
             <array>
@@ -305,8 +313,6 @@
                     <data>AAAAgA==</data>
                     <key>hda-gfx</key>
                     <string>onboard-1</string>
-                    <key>model</key>
-                    <string>Intel HD Graphics 620</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -394,7 +400,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.8</string>
+                    <string>V1.7.9</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -448,7 +454,7 @@
                     <key>BundlePath</key>
                     <string>HibernationFixup.kext</string>
                     <key>Comment</key>
-                    <string>V1.4.7</string>
+                    <string>V1.4.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -608,11 +614,29 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
+                    <string>ACPIBatteryManager.kext</string>
+                    <key>Comment</key>
+                    <string>V1.81.4</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/ACPIBatteryManager</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
                     <string>SMCBatteryManager.kext</string>
                     <key>Comment</key>
                     <string>V1.3.0</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/SMCBatteryManager</string>
                     <key>MaxKernel</key>
@@ -1342,7 +1366,7 @@
                 <key>ReplaceTabWithSpace</key>
                 <false/>
                 <key>Resolution</key>
-                <string>1920x1080</string>
+                <string>Max</string>
                 <key>SanitiseClearScreen</key>
                 <false/>
                 <key>TextRenderer</key>
@@ -1417,6 +1441,8 @@
                 <true/>
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
+                <key>ResizeUsePciRbIo</key>
+                <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
                 <key>UnblockFsConnect</key>
