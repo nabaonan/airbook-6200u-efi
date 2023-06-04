@@ -5,6 +5,11 @@
 ## 介绍
 airbook支持ventura ，所有kext驱动更新最新
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=nabaonan/airbook-6200u-efi&type=Date)](https://star-history.com/#nabaonan/airbook-6200u-efi&Date)
+
+
 ## 已知问题
 
 电量低于30会黑屏死机
