@@ -1,13 +1,13 @@
 # airbook-6200u-efi
 
-[![macOS](https://img.shields.io/badge/macOS-13.2.1-yellow)](https://developer.apple.com/documentation/macos-release-notes) [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.9-blue)](https://github.com/acidanthera/OpenCorePkg) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
+[![macOS](https://img.shields.io/badge/macOS-13.4-yellow)](https://github.com/nabaonan/airbook-6200u-efi) [![OpenCore](https://img.shields.io/badge/OpenCore-0.9.2-blue)](https://github.com/nabaonan/airbook-6200u-efi) [![airbook](https://img.shields.io/badge/Airbook-6200U-lightgrey)](https://github.com/nabaonan/airbook-6200u-efi)
 
 ## 介绍
 airbook支持ventura ，所有kext驱动更新最新
 
 ## 已知问题
 
-电量低于15会黑屏死机
+电量低于30会黑屏死机
 
 ## 基本配置
 
@@ -25,24 +25,24 @@ airbook支持ventura ，所有kext驱动更新最新
 
 | 名称                         | 版本                                                         | 描述                         |
 | ---------------------------- | ------------------------------------------------------------ | ---------------------------- |
-| AirportBcrmFixup             | ![](https://img.shields.io/badge/version-2.1.6-informational) | wifi                         |
-| AppleALC                     | ![](https://img.shields.io/badge/version-1.7.8-informational) | 声卡                         |
-| BcrmPatchRAM3                | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                         |
-| BlueToolFixup                | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                         |
-| BrcmFirmwareData             | ![](https://img.shields.io/badge/version-2.6.4-informational) | 蓝牙                         |
-| HibernationFixup             | ![](https://img.shields.io/badge/version-1.4.7-informational) | 修复睡眠                     |
-| Lilu                         | ![](https://img.shields.io/badge/version-1.6.3-informational) | 核心                         |
-| VoodooPS2Controller          | ![](https://img.shields.io/badge/version-2.2.4-informational) | 触摸板和键盘                 |
-| WhateverGreen                | ![](https://img.shields.io/badge/version-1.6.4-informational) | 显卡                         |
-| VirtualSMC                   | ![](https://img.shields.io/badge/version-1.3.0-informational) | 核心                         |
-| SMCProcessor                 | ![](https://img.shields.io/badge/version-1.3.0-informational) | 处理器温度                   |
-| SMCBatteryManager            | ![](https://img.shields.io/badge/version-1.3.0-informational) | 电池驱动（不用了）           |
-| ACPIBatteryManage            | ![](https://img.shields.io/badge/version-1.81.4-informational) | 旧版电池驱动（结合ssdt补丁） |
-| SMCSuperIO                   | ![](https://img.shields.io/badge/version-1.3.0-informational) | 温度检测                     |
-| ECEnabler                    | ![](https://img.shields.io/badge/version-1.0.3-informational) | 电池驱动依赖，不用拆字节了   |
+| AirportBcrmFixup             | [![](https://img.shields.io/badge/version-2.1.6-informational)](https://github.com/nabaonan/airbook-6200u-efi) | wifi                         |
+| AppleALC                     | [![](https://img.shields.io/badge/version-1.7.8-informational)](https://github.com/nabaonan/airbook-6200u-efi) | 声卡                         |
+| BcrmPatchRAM3                | [![](https://img.shields.io/badge/version-2.6.4-informational)](https://github.com/nabaonan/airbook-6200u-efi) | 蓝牙                         |
+| BlueToolFixup                | [![](https://img.shields.io/badge/version-2.6.4-informational)](https://github.com/nabaonan/airbook-6200u-efi) | 蓝牙                         |
+| BrcmFirmwareData             | [![](https://img.shields.io/badge/version-2.6.4-informational)](https://github.com/nabaonan/airbook-6200u-efi) | 蓝牙                         |
+| HibernationFixup             | [![](https://img.shields.io/badge/version-1.4.7-informational)](https://github.com/nabaonan/airbook-6200u-efi) | 修复睡眠                     |
+| Lilu                         | [![](https://img.shields.io/badge/version-1.6.3-informational)](https://github.com/nabaonan/airbook-6200u-efi) | 核心                         |
+| VoodooPS2Controller          | [![](https://img.shields.io/badge/version-2.2.4-informational)](https://github.com/nabaonan/airbook-6200u-efi) | 触摸板和键盘                 |
+| WhateverGreen                | [![](https://img.shields.io/badge/version-1.6.4-informational)](https://github.com/nabaonan/airbook-6200u-efi) | 显卡                         |
+| VirtualSMC                   | [![](https://img.shields.io/badge/version-1.3.0-informational)](https://github.com/nabaonan/airbook-6200u-efi) | 核心                         |
+| SMCProcessor                 | [![](https://img.shields.io/badge/version-1.3.0-informational)](https://github.com/nabaonan/airbook-6200u-efi) | 处理器温度                   |
+| SMCBatteryManager            | [![](https://img.shields.io/badge/version-1.3.0-informational)](https://github.com/nabaonan/airbook-6200u-efi) | 电池驱动（不用了）           |
+| ACPIBatteryManage            | [![](https://img.shields.io/badge/version-1.81.4-informational)](https://github.com/nabaonan/airbook-6200u-efi) | 旧版电池驱动（结合ssdt补丁） |
+| SMCSuperIO                   | [![](https://img.shields.io/badge/version-1.3.0-informational)](https://github.com/nabaonan/airbook-6200u-efi) | 温度检测                     |
+| ECEnabler                    | [![](https://img.shields.io/badge/version-1.0.3-informational)](https://github.com/nabaonan/airbook-6200u-efi) | 电池驱动依赖，不用拆字节了   |
 | USBPorts                     |                                                              | usb定制                      |
-| RealtekCardReaderFriend.kext | ![](https://img.shields.io/badge/version-1.0.4-informational) |                              |
-| RealtekCardReader.kext       | ![](https://img.shields.io/badge/version-0.9.7-informational) |                              |
+| RealtekCardReaderFriend.kext | [![](https://img.shields.io/badge/version-1.0.4-informational)](https://github.com/nabaonan/airbook-6200u-efi) |                              |
+| RealtekCardReader.kext       | [![](https://img.shields.io/badge/version-0.9.7-informational)](https://github.com/nabaonan/airbook-6200u-efi) |                              |
 
 ## 功能完善度
 
@@ -69,9 +69,15 @@ airbook支持ventura ，所有kext驱动更新最新
 
 
 
+- 5.12 再次尝试使用acpi 电池驱动  升级oc0.9.2
+
+- 5.11 重新定制usb
+
+- 恢复使用smc驱动，调整加载顺序
+
 - 5.10
   - 改用acpibattery驱动 ，结合ssdt补丁 完美解决电池显示和盒盖睡眠，黑屏死机问题
-  
+
 - 5.9
   - 解决hidpi开启闪屏问题，更新weg驱动1.6.4
 
